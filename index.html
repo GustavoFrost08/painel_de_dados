@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Dados</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+            <div id="navbar">
+    <button class="menu" onclick="toggleMenu()">
+        <img class="icon" src="assets/icon.png" alt="opções">
+    </button>
+
+    <div class="sidebar" id="sidebar">
+        <h3>Menu</h3>
+        <a href="#">Função 1</a>
+        <a href="#">Função 2</a>
+
+        <button class="close_menu" onclick="toggleMenu()">
+            Fechar
+        </button>
+    </div>
+    
+        <h2>Análise Estatística de Preferências em Jogos Narrativos</h2>
+
+        <ul class="content">
+            <li>1° Jogos</li>
+            <li>2° Tema Preferido</li>
+            <li>3° Ranking</li>
+        </ul>
+    </div>
+    </header>
+
+    <div class="div_maior">
+
+        <div class="box_top">
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/bomdaguerra.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>God of War Ragnarok</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2022</p>
+                    <p>Gênero: Ação/Aventura</p>
+                    <p>Nota: 9.4</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/red.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>Red Dead Redemption 2 </h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2018</p>
+                    <p>Gênero: Faroeste/ação-aventura</p>
+                    <p>Nota: 9.8</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/bruxo.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>The Witcher 3</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2015</p>
+                    <p>Gênero: RPG de ação/mundo aberto</p>
+                    <p>Nota: 9.3</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/cyber.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>Cyberpunk 2077</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2020</p>
+                    <p>Gênero: RPG de ação/FPS</p>
+                    <p>Nota: 9.0</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/elden.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>Elden Ring</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2022</p>
+                    <p>Gênero: RPG de ação/FPS</p>
+                    <p>Nota: 9.6</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+        </div>
+
+               <div class="box_top">
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/baldur.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>Baldur's Gate 3</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2023</p>
+                    <p>Gênero: RPG tático/turnos</p>
+                    <p>Nota: 9.6</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/tlou.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>The last of us Part II</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2020</p>
+                    <p>Gênero: Aventura/Survival Horror</p>
+                    <p>Nota: 9.3</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/ghost.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>Ghost of Tsushima</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2020</p>
+                    <p>Gênero: Ação/Mundo aberto/Stealth</p>
+                    <p>Nota: 8.3</p>
+                    <small>(clique para fechar)</small>
+                </div>
+
+            </div>
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/detroit.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>Detroit: Become Human</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2018</p>
+                    <p>Gênero: Aventura Narrativa/Drama</p>
+                    <p>Nota: 7.8</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+
+            <div class="jogos_box">
+                <div class="img_cima">
+                    <img class="img_jogos" src="assets/portal.png" alt="">
+                </div>
+                <div class="jogos_text">
+                    <h4>Portal 2</h4>
+                </div>
+                <button class="btn_info" onclick="toggleInfo(this)">
+                    Ver Info
+                </button>
+                <div class="info_extra" onclick="fecharInfo(this)">
+                    <strong>INFO</strong>
+                    <p>Lançamento: 2011</p>
+                    <p>Gênero: Puzzle/Plataforma</p>
+                    <p>Nota: 9.5</p>
+                    <small>(clique para fechar)</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-tabela">
+         <div class="titulo-tabela">Ranking pela estimativa global</div>
+         <table>
+         <thead>
+           <tr>
+            <th>Jogos</th>
+            <th>Média de horas</th>
+            <th>Jogadores estimados</th>
+           </tr> 
+         </thead>
+         <tbody id="tabelas-jogos">
+            <tr>
+                <td>Red Dead Redemption II</td>
+                <td>120h</td>
+                <td>74 milhões</td>
+            </tr>
+             <tr>
+                <td>Elden Ring</td>
+                <td>95h</td>
+                <td>30 milhões</td>
+            </tr>
+             <tr>
+                <td>The Witcher 3</td>
+                <td>110h</td>
+                <td>60 milhões</td>
+                </tr>
+         </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
